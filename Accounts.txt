@@ -1,0 +1,49 @@
+r1 :  0x4Da3F528bad6C8ed6522a85B66FF96c9d435e456
+r2 :  0x5910D8cC97f8A1ffaa2111aeA2DE087e250f66b3
+r3 :  0xa1EC19590599D0bF7FE7a6Aa7Ec7d01827b84a8C
+r4 :  0xb26317413f86BD17bEd6e79EDeFeC4F30d2d9213
+e1 :  0x0fD68c3DCac7A14Ffb2A3EB99FBc58Ff4C1f0dC6
+e2 :  0x5dF7E9e53EB16E2954721F3FA673e98790DE5dfd
+m :   0x8993485A1Cd82631d8f52B307D4AFB3056f17040
+
+0xD7ACd2a9FD159E69Bb102A1ca21C9a3e3A5F771B
+0x7EF2e0048f5bAeDe046f6BF797943daF4ED8CB47
+
+
+
+
+
+
+Creating Accounts 
+geth account new --datadir "C:\Users\montd\Desktop\Project\m"
+geth account new --datadir "C:\Users\montd\Desktop\Project\e1"
+geth account new --datadir "C:\Users\montd\Desktop\Project\e2"
+geth account new --datadir "C:\Users\montd\Desktop\Project\r1"
+geth account new --datadir "C:\Users\montd\Desktop\Project\r2"
+geth account new --datadir "C:\Users\montd\Desktop\Project\r3"
+geth account new --datadir "C:\Users\montd\Desktop\Project\r4"
+
+
+
+
+
+geth --datadir "C:\Users\montd\Desktop\Project\r1" --networkid 111 console
+geth --datadir "C:\Users\montd\Desktop\Project\r2" --networkid 111 console
+geth --datadir "C:\Users\montd\Desktop\Project\r3" --networkid 111 console
+geth --datadir "C:\Users\montd\Desktop\Project\r4" --networkid 111 console
+geth --datadir "C:\Users\montd\Desktop\Project\e1" --networkid 111 console
+geth --datadir "C:\Users\montd\Desktop\Project\e2" --networkid 111 console
+geth --datadir "C:\Users\montd\Desktop\Project\m" --networkid 111 console
+
+Starting genesis files 
+geth --datadir "C:\Users\montd\Desktop\Project\r1" init "C:\Users\montd\Desktop\Project\r1"\genesis.json"
+geth --datadir "C:\Users\montd\Desktop\Project\r2" init "C:\Users\montd\Desktop\Project\r2"\genesis.json"
+geth --datadir "C:\Users\montd\Desktop\Project\r3" init "C:\Users\montd\Desktop\Project\r3"\genesis.json"
+geth --datadir "C:\Users\montd\Desktop\Project\r4" init "C:\Users\montd\Desktop\Project\r4"\genesis.json"
+geth --datadir "C:\Users\montd\Desktop\Project\e1" init "C:\Users\montd\Desktop\Project\e1"\genesis.json"
+geth --datadir "C:\Users\montd\Desktop\Project\e1" init "C:\Users\montd\Desktop\Project\e1"\genesis.json"
+geth --datadir "C:\Users\montd\Desktop\Project\m" init "C:\Users\montd\Desktop\Project\m"\genesis.json"
+
+
+
+enode://74dd16f8d178cd4383e7f171c3d49026937c4271131ae5695ecaee607cb577c27d1f00c52a591a0a20915e1cb2b07511e2e1c94762906f083eab61ce723384e6@127.0.0.1:0?discport=30305
