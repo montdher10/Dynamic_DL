@@ -1,2 +1,23 @@
 # Dynamic_DL
 Experimental setup regarding article titled "Next-Generation Predictive Maintenance: Leveraging Blockchain and Dynamic Deep Learning in a Domain-Independent System"
+
+
+Our experimental setup is as follows:
+
+Local Geth Network Configuration:
+
+Our local Geth network consists of a total of 7 nodes, each serving a specific role in the system:
+Two nodes designated for edge processing (e1 and e2).
+Four nodes operating as gateways at the device level, referred to as r1, r2, r3, and r4.
+One node designated as the monitoring node (m).
+To initiate this network, it is essential to execute a boot file that facilitates the synchronization of these nodes.
+IPFS Daemon Setup:
+
+To establish the decentralized storage network, you should run the IPFS daemon client. This step is crucial for enabling the decentralized storage component of our system.
+Deep Learning Model and Dataset Placement:
+
+Ensure that the deep learning model files and dataset are correctly located within the "Deep Learning" folder. This folder should contain both the predictor and trainer Jupyter notebook files.
+Dependency Check:
+
+It's imperative to verify the functionality of the Ethereum Geth network and the IPFS service before running the experiment. The experiment relies on these components, and if they are not operational, the experiment may not work as expected.
+By following these detailed instructions, you will set up the experimental environment required for the successful execution of our study.
